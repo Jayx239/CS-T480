@@ -1,0 +1,1 @@
+gcc emulator.c -o emulator

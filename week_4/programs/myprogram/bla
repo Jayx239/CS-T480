@@ -1,0 +1,94 @@
+p c.o 1
+# x
+p 1 a13.alpha
+p 2 a14.alpha
+p 3 a15.alpha
+p 4 a16.alpha
+p a13.A 2
+p a14.A 3
+p a15.A 4
+p a16.A 4
+
+p i.io 1-1
+p 1-1 p.Ci
+
+p p.C1o 1-4
+
+p 1-4 a13.6i
+p 1-4 a14.6i
+p 1-4 a15.8i
+p 1-4 a15.9i
+
+p a13.6o 1-5
+p 1-5 a13.i
+
+
+p a16.A 1-1
+p a13.A a14.a
+p a14.A a15.b
+p a15.A a16.b
+
+s a13.op6 A
+s a13.op6 a
+s a13.rp6 1
+
+s a14.op7 a
+s a14.op7 A
+
+s a14.op6 a
+s a14.rp6 2
+s a14.op6 A
+s a14.op8 b
+s a14.rp8 1
+s a14.op8 A
+
+s a15.op6 a
+s a15.rp6 6
+s a15.op9 b
+s a15.rp9 1
+
+s c.j1 1
+s c.s26 JLr
+
+p 1-2 c.26i
+p 1-2 c.27i
+
+s p.d17s1 9
+s p.d16s1 9
+s p.d15s1 9
+s p.d14s1 9
+s p.d14s2 1
+s p.cC 4
+
+s pr.13 P
+s pr.14 P
+s pr.15 P
+s pr.16 P
+s c.s26 P
+s c.s27 P
+
+#Initialize?
+
+#s c.s1 Jlr
+#s a13.j1 1
+#s a14.j2 0
+#s a15.j3 2
+#s a16.j4 6
+#p s7 a13.alpha
+
+#p a13.A 2
+#p a14.A 3
+#p a15.A 4
+
+#p i.io 1-1
+#p 1-1 p.Ci
+# x
+#s a13.op5 a 
+#s a13.op6 A
+#s a13.rp5 1
+#s a13.rp5 1
+# -2x^2
+#s a14.op6 a 
+#s a14.rp6 2
+#s a14.op5 b 
+
